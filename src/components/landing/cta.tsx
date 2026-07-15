@@ -45,7 +45,7 @@ export function CTA() {
                     variant="outline"
                     nativeButton={false}
                     className="h-11 border-white/20 bg-white/5 px-6 text-white hover:bg-white/10 hover:text-white"
-                    render={<a href="tel:+551140028922">Ligar agora</a>}
+                    render={<a href="tel:+556796270911">Ligar agora</a>}
                   />
                 </div>
               </div>
@@ -66,7 +66,7 @@ export function CTA() {
                   </span>
                   <div>
                     <p className="text-xs text-emerald-200/70">Telefone</p>
-                    <p className="font-medium">+55 (11) 4002-8922</p>
+                    <p className="font-medium">+55 67 9627-0911</p>
                   </div>
                 </div>
               </div>

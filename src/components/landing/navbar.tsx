@@ -9,7 +9,7 @@ import { cn } from "@/lib/utils";
 import { BrandName } from "@/components/brand-name";
 
 const WHATSAPP_URL =
-  "https://wa.me/551140028922?text=Ol%C3%A1!%20Gostaria%20de%20entrar%20em%20contato%20com%20a%20P%26L%20AGROLOG%C3%8DSTICA.";
+  "https://wa.me/556796270911?text=Ol%C3%A1!%20Gostaria%20de%20entrar%20em%20contato%20com%20a%20P%26L%20AGROLOG%C3%8DSTICA.";
 
 const links = [
   { label: "Serviços", href: "#servicos" },
