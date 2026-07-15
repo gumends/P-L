@@ -17,14 +17,15 @@ export function CTA() {
             <div className="relative grid gap-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-end">
               <div>
                 <p className="text-sm font-medium uppercase tracking-wider text-emerald-200">
-                  Pronto para otimizar sua logística?
+                  Pronto para refinar com quem entende do processo?
                 </p>
                 <h2 className="mt-3 max-w-2xl text-3xl font-semibold tracking-tight sm:text-4xl">
-                  Vamos estruturar a operação ideal para sua safra
+                  Vamos encontrar a solução ideal para sua produção
                 </h2>
                 <p className="mt-4 max-w-xl text-emerald-100/80">
-                  Conte volumes, rotas e desafios. Nossa equipe retorna com uma
-                  proposta técnica e comercial em até 24 horas úteis.
+                  Conte sua demanda em volume e especificação. Nossa equipe
+                  retorna com uma proposta técnica e comercial em até 24 horas
+                  úteis.
                 </p>
 
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row">

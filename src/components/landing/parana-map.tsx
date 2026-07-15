@@ -107,7 +107,7 @@ export function ParanaMap() {
     <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/5 shadow-2xl shadow-emerald-950/40 backdrop-blur-sm">
       <div className="flex items-center justify-between border-b border-white/10 px-5 py-4">
         <div>
-          <p className="text-sm text-emerald-200/70">Nossa atuação</p>
+          <p className="text-sm text-emerald-200/70">Nossa planta</p>
           <p className="text-lg font-medium text-white">Estado do Paraná</p>
         </div>
         <span className="rounded-full bg-emerald-500/20 px-3 py-1 text-xs font-medium text-emerald-300">

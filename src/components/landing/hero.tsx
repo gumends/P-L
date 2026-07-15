@@ -1,16 +1,16 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { ArrowRight, MapPin, ShieldCheck, Truck } from "lucide-react";
+import { ArrowRight, Droplets, FlaskConical, MapPin } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ParanaMap } from "@/components/landing/parana-map";
 
 const highlights = [
-  { icon: Truck, label: "Frota rastreada em tempo real" },
-  { icon: ShieldCheck, label: "Seguro e compliance total" },
-  { icon: MapPin, label: "Cobertura nacional" },
+  { icon: Droplets, label: "Refino de óleo de soja" },
+  { icon: FlaskConical, label: "Controle de qualidade rigoroso" },
+  { icon: MapPin, label: "Atuação no Paraná" },
 ];
 
 export function Hero() {
@@ -37,7 +37,7 @@ export function Hero() {
             transition={{ duration: 0.55, delay: 0.1 }}
           >
             <Badge className="mb-6 border-emerald-400/30 bg-emerald-500/10 text-emerald-200 hover:bg-emerald-500/10">
-              Logística inteligente para o agronegócio
+              Refino de óleo de soja e processamento de soja
             </Badge>
           </motion.div>
 
@@ -47,9 +47,9 @@ export function Hero() {
             transition={{ duration: 0.65, delay: 0.2 }}
             className="max-w-2xl text-4xl font-semibold tracking-tight text-balance sm:text-5xl lg:text-6xl"
           >
-            Do campo ao destino, com{" "}
+            Da soja ao óleo refinado, com{" "}
             <span className="bg-gradient-to-r from-emerald-300 to-lime-300 bg-clip-text text-transparent">
-              precisão e rastreabilidade
+              qualidade e controle
             </span>
           </motion.h1>
 
@@ -59,9 +59,9 @@ export function Hero() {
             transition={{ duration: 0.65, delay: 0.35 }}
             className="mt-6 max-w-xl text-lg leading-relaxed text-emerald-100/75"
           >
-            Conectamos produtores, armazéns e indústrias com operações
-            logísticas seguras, planejadas e monitoradas — reduzindo perdas,
-            custos e incertezas em cada embarque.
+            Refinamos e processamos soja e óleo de soja com tecnologia,
+            rigor técnico e padrões que garantem pureza, rendimento e
+            confiabilidade em cada lote produzido.
           </motion.p>
 
           <motion.div

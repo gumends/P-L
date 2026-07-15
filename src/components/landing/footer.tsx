@@ -10,9 +10,9 @@ const footerLinks = {
     { label: "Sustentabilidade", href: "#" },
   ],
   Soluções: [
-    { label: "Transporte de grãos", href: "#servicos" },
-    { label: "Exportação", href: "#servicos" },
-    { label: "Armazenagem", href: "#servicos" },
+    { label: "Refino de óleo de soja", href: "#servicos" },
+    { label: "Processamento de soja", href: "#servicos" },
+    { label: "Controle de qualidade", href: "#servicos" },
   ],
   Contato: [
     { label: "Entrar em contato", href: "#contato" },
@@ -34,8 +34,8 @@ export function Footer() {
               <BrandName className="text-lg font-semibold text-stone-900" />
             </a>
             <p className="mt-4 max-w-sm text-sm leading-relaxed text-stone-600">
-              Inteligência logística para o agronegócio brasileiro. Conectamos
-              produtividade no campo com eficiência na entrega.
+              Refino de óleo de soja e processamento de soja no Paraná.
+              Tecnologia, qualidade e confiança em cada lote produzido.
             </p>
           </div>
 

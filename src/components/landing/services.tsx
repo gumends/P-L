@@ -1,10 +1,10 @@
 "use client";
 
 import {
-  Container,
+  Beaker,
+  Cog,
+  Droplets,
   Package,
-  Route,
-  ThermometerSun,
   Warehouse,
   Wheat,
 } from "lucide-react";
@@ -25,40 +25,40 @@ import {
 
 const services = [
   {
+    icon: Droplets,
+    title: "Refino de óleo de soja",
+    description:
+      "Processo industrial de refino com controle de pureza, cor, acidez e estabilidade para uso alimentar e industrial.",
+  },
+  {
     icon: Wheat,
-    title: "Transporte de grãos",
+    title: "Processamento de soja",
     description:
-      "Operação dedicada para soja, milho, algodão e demais commodities com controle de umidade e perdas.",
+      "Beneficiamento de grãos com eficiência operacional, rastreabilidade por lote e conformidade com normas do setor.",
   },
   {
-    icon: Route,
-    title: "Roteirização inteligente",
+    icon: Beaker,
+    title: "Controle de qualidade",
     description:
-      "Planejamento de rotas com base em safras, janelas de descarga e condições de estrada em tempo real.",
+      "Análises em todas as etapas — da matéria-prima ao produto final — garantindo padrão e segurança alimentar.",
   },
   {
-    icon: Warehouse,
-    title: "Armazenagem e transbordo",
+    icon: Cog,
+    title: "Extração e prensagem",
     description:
-      "Rede de parceiros para estocagem segura, secagem e transferência entre modais com rastreio contínuo.",
-  },
-  {
-    icon: ThermometerSun,
-    title: "Carga refrigerada",
-    description:
-      "Soluções para frutas, hortifruti e insumos sensíveis, com monitoramento de temperatura 24/7.",
-  },
-  {
-    icon: Container,
-    title: "Exportação e portos",
-    description:
-      "Coordenação até o embarque marítimo, documentação aduaneira e alinhamento com terminais.",
+      "Tecnologia de extração otimizada para máximo rendimento de óleo com qualidade consistente e baixa perda.",
   },
   {
     icon: Package,
-    title: "Insumos e defensivos",
+    title: "Farelo e subprodutos",
     description:
-      "Distribuição controlada de fertilizantes e defensivos com conformidade regulatória e SLA rigoroso.",
+      "Aproveitamento integral da soja com produção de farelo e coprodutos para nutrição animal e indústria.",
+  },
+  {
+    icon: Warehouse,
+    title: "Armazenagem industrial",
+    description:
+      "Estrutura para recebimento, estocagem e gestão de matéria-prima e produto acabado com controle de umidade.",
   },
 ];
 
@@ -71,11 +71,12 @@ export function Services() {
             Soluções completas
           </Badge>
           <h2 className="text-3xl font-semibold tracking-tight text-stone-900 sm:text-4xl">
-            Logística pensada para cada etapa da cadeia agro
+            Refino e processamento para toda a cadeia da soja
           </h2>
           <p className="mt-4 text-lg text-stone-600">
-            Da colheita à indústria ou porto, estruturamos operações sob medida
-            para escala, compliance e previsibilidade.
+            Da matéria-prima ao óleo refinado, operamos com tecnologia,
+            qualidade e escala para atender indústria, cooperativas e
+            distribuidores.
           </p>
         </FadeIn>
 

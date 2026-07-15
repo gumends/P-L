@@ -10,16 +10,16 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "P&L AGROLOGÍSTICA | Logística inteligente para o agronegócio",
+  title: "P&L AGROLOGÍSTICA | Refino de óleo de soja e processamento de soja",
   description:
-    "Soluções logísticas completas para o agronegócio: transporte de grãos, armazenagem, exportação e rastreabilidade em tempo real.",
+    "Refino de óleo de soja e processamento de soja no Paraná. Controle de qualidade, tecnologia industrial e produção em escala.",
   keywords: [
     "P&L AGROLOGÍSTICA",
-    "agrologística",
-    "logística agrícola",
-    "transporte de grãos",
+    "refino de óleo de soja",
+    "processamento de soja",
+    "óleo de soja refinado",
     "agronegócio",
-    "exportação",
+    "Paraná",
   ],
 };
 
