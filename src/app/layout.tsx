@@ -29,8 +29,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="pt-BR" className={`${plusJakarta.variable} h-full scroll-smooth antialiased`}>
-      <body className="min-h-full bg-background font-sans text-foreground">
+    <html lang="pt-BR" className={`${plusJakarta.variable} h-full scroll-smooth overflow-x-hidden antialiased`}>
+      <body className="min-h-full overflow-x-hidden bg-background font-sans text-foreground">
         {children}
       </body>
     </html>
